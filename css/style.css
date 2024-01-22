@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body {
+    background-color: #2980b9;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.socialLogin {
+    display: flex;
+    gap: 1rem;
+}
+.socialLogin .facebook {
+    background-color: #4834d4;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+.socialLogin .facebook:hover {
+    background-color: #2980b9;
+}
+.socialLogin .facebook i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.socialLogin .google {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+.socialLogin .google:hover {
+    background-color: #4834d4;
+}
+.socialLogin .google i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.btn {
+    display: inline-block;
+    margin: 1rem auto;
+    background-color: #95afc0;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+form input {
+    display: block;
+    border: 2px solid #2980b9;
+    margin: 1rem;
+    padding: 1rem;
+    width: 470px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+form input[type="text"]:focus, input[type="password"]:focus {
+    border: 3px solid #4834d4;
+}
+::placeholder {
+    font-size: 1.1rem;
+}
+.keepSign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 1rem;
+}
+.keepSign label {
+    font-size: 1.1rem;
+    color: #2980b9;
+}
+.keepSign label input[type="checkbox"] {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-right: 5px;
+    color: #2980b9;
+}
+.keepSign a {
+    font-size: 1.1rem;
+    color: #2980b9;
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: #4834d4;
+    color: #fff;
+    margin: 1rem 0;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    width: 95%;
+}
+.member {
+    font-size: 1.2rem;
+    color: #2980b9;
+}
+.member a {
+    margin-left: 1rem;
+}
